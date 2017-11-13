@@ -1,0 +1,5 @@
+com\github\kristineba\app\domain\model\StockItem.class
+com\github\kristineba\app\StockResource.class
+com\github\kristineba\app\domain\model\ItemType.class
+com\github\kristineba\app\StockSpringBootStarter.class
+com\github\kristineba\app\StockItemRepository.class

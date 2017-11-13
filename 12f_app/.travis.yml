@@ -1,0 +1,10 @@
+language: java
+before_script: cd 12f_app
+script: mvn clean install
+deploy:
+  edge: true
+  provider: cloudfoundry
+  username: kristine.baumann@smit.ee
+  api: https://api.run.pivotal.io
+  organization: kristine.baumann-org
+  space: development
